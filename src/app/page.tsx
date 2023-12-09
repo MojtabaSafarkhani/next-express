@@ -23,9 +23,9 @@ export default function Home() {
       <div className="grid grid-cols-12 gap-1 h-screen">
         <div className="bg-black col-span-3">
         <Intercept></Intercept>
-          <Bite></Bite>
+          {/* <Bite></Bite>
           <Connnection></Connnection>
-          <Setting></Setting>
+          <Setting></Setting> */}
           <Standby></Standby>
           <Targeting></Targeting>
           <Jamming></Jamming>
