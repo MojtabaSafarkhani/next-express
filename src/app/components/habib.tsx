@@ -65,7 +65,7 @@ const Habib = () => {
     return () => {
       eventSource.close();
     };
-  }, []);
+  },[]);
 
   return (
     <CollapseComponent title="targets" content={table}></CollapseComponent>
